@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- 
+    Hello there! *obi-wan kenobi voice* If you're reading this, you're interested in my code, which is cool. SUP FELLOW NERD :) I'm always looking for cleaner, snazzier ways of doing things, so please feel free to leave feedback on my GitHub: https://github.com/monicarichardson/devmonica.com
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Monica Richardson | Software Delivery Team Lead</title>
+        <meta name="description" content="Hi! I'm Monica, I'm a Software Delivery Team Lead based in Edinburgh. This is my wee corner of the internet where you can learn a bit more about me and my work.">
+		<meta name="keywords" content="Monica Richardson, Edinburgh, Scotland, Software Developer, Tech, Technology, Software, Delivery Team Lead, Career, Web">
+		
+		<meta name="og:title" content="Monica Richardson | Software Delivery Team Lead">
+		<meta name="og:type" content="Website">
+		<meta name="og:url" content="https://www.devmonica.com">
+		<meta name="og:image" content="https://www.devmonica.com/assets/home.jpg">
+		<meta name="og:site_name" content="Monica Richardson | Software Delivery Team Lead">
+		<meta name="og:description" property="Hi! I'm Monica, I'm a Software Delivery Team Lead based in Edinburgh. This is my wee corner of the internet where you can learn a bit more about me and my work.">
+		
+		<meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="main.js" type="application/javascript"></script>
+    </head>
+    <body>
+        <nav>
+            <!-- Fun fact: I made sure this nav bar was accessible by referencing W3C's example here - https://w3c.github.io/aria-practices/examples/menubar/menubar-navigation.html -->
+			<a href="#" class="mobile-nav-button-open">
+			  <div class="inner"></div>
+			</a>
+            <ul id="menu" role="menubar" class="horizontal-nav">
+                <li role="none"><button id="home" role="menuitem">Home</button></li>
+                <li role="none"><button id="about" role="menuitem">About Me</button></li>
+                <li role="none"><button id="career" role="menuitem">Career</button></li>
+                <li role="none"><button id="code" role="menuitem">Code</button></li>
+                <li role="none"><button id="news" role="menuitem">News</button></li>
+                <li role="none"><button id="contact" role="menuitem">Contact Me</button></li>
+            </ul>
+        </nav>
+        <section id="home-section">
+			<div>
+				<picture>
+					<source media="(min-width: 1086px)" srcset="assets/home.jpg">
+					<source media="(min-width: 499px)" srcset="assets/home-1086.png">
+					<source media="(min-width: 0px)" srcset="assets/home-498.png">
+					<img src="assets/home.jpg"/>
+				</picture>
+			</div>
+            <div class="text">
+                <h1>Hi! I'm Monica</h1>
+            </div>
+        </section>
+        <section id="about-section">
+			<div class="about-container container">
+				<div class="two-up">
+					<div>
+						<h2>About Me</h2>
+						<p>I'm 24 years old</p>
+						<p>I'm a software delivery team lead</p>
+						<p>I live in Edinburgh with my cat, <a href="https://www.instagram.com/poppymeows/" target="_blank" aria-label="My cat Poppy's Instagram profile." title="Follow Poppy on Instagram">Poppy</a></p>
+						<p>I grew up in the Scottish Borders</p>
+						<p>I've been playing piano since I was 6 years old</p>
+						<p>I love making <a href="https://www.artstation.com/monicarichardson" target="_blank" aria-label="My online portfolio of digital art." title="Check out my ArtStation">digital art</a> in my free time</p>
+					</div>
+					<div class="divider">
+						<img id="poppy" src="assets/poppy.gif"/>
+					</div>
+					<div class="manifesto">
+						<h2>The Monica Manifesto</h2>
+						<p>Through my work, I have come to value:</p>
+						<p><strong>Attitude</strong> over ability</p>
+						<p><strong>Team players</strong> over solo artists</p>
+						<p><strong>Honesty and progress</strong> over comfort and routine</p>
+						<p><strong>User satisfaction</strong> over technical perfection</p>
+						<p><strong>Kindness</strong> over everything</p>
+					</div>
+				</div>
+			</div>
+        </section>
+        <section id="career-section">
+            <div class="container">
+                <h2>My journey so far</h2>
+				<div id="timeline">
+					<div class="timeline-line">
+						<div>
+							<h3>2017</h3>
+							<div data-milestone="2017" class="timeline-milestone">
+								<div id="timeline-bubble-2017" class="timeline-bubble">
+									<p>Joined Forrit as an Apprentice Web Developer</p>
+									<p>Sat 3 Microsoft Technology Associate exams</p>
+									<p>Completed an SCQF Level 6 in IT &amp; Telecommunications</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3>2018</h3>
+							<div data-milestone="apprentice" class="timeline-milestone">
+								<div id="timeline-bubble-apprentice" class="timeline-bubble">
+									<p>Wrote a technical report and led training sessions on Web Accessibility</p>
+									<p>Built an internal link localisation tool for developer use</p>
+									<p>Became regularly involved in client communications</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3>2019</h3>
+							<div data-milestone="dev" class="timeline-milestone">
+								<div id="timeline-bubble-dev" class="timeline-bubble">
+									<p>Designed and built a localisation tool for client use</p>
+									<p>Visited Microsoft HQ in Redmond, WA</p>
+									<p>Led the annual Web Accessibility audit</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3>2020</h3>
+							<div data-milestone="honours" class="timeline-milestone">
+								<div id="timeline-bubble-honours" class="timeline-bubble">
+									<p>Won the ScotlandIS Digital Technology Awards "Unsung Hero" Award</p>
+									<p>Began designing a new and improved localisation tool for my Honours project</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3>2021</h3>
+							<div data-milestone="grad" class="timeline-milestone">
+								<div id="timeline-bubble-grad" class="timeline-bubble lower-bubble">
+									<p>Graduated from Edinburgh Napier University with a First Class BSc (Hons) Software Development</p>
+									<p>Started my current role as Delivery Team Lead</p>
+									<p>Worked with a talented team of devs to build my Honours project</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h3>2022</h3>
+							<div data-milestone="lead" class="timeline-milestone">
+								<div id="timeline-bubble-lead" class="timeline-bubble lower-bubble">
+									<p>Mentoring others through Forrit's apprenticeship programme</p>
+									<p>Collaborating with teams across Forrit to help design new platform features</p>
+									<p>Refining and documenting our processes and solutions</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <section id="code-section">
+			<div class="code-container container">
+				<!-- Codepen embed -->
+				<div id="cube">
+					<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="abGbbaB" data-user="monicarichardson" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+					<span>See the Pen <a href="https://codepen.io/monicarichardson/pen/abGbbaB">Rubiks Cube</a> by monicarichardson (<a href="https://codepen.io/monicarichardson">@monicarichardson</a>) on <a href="https://codepen.io">CodePen</a>.</span></p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</div>
+				<div>
+					<h2>Time for the nerdy stuff</h2>
+					<p>Most of the code I've written over the years has been for Forrit and its clients</p>
+					<p>However, you can take a look at some of my university work <a href="https://github.com/m0nicarichards0n" target="_blank" aria-label="Some of my university work on GitHub." title="My uni GitHub">here</a></p>
+					<p>I also have a humble <a href="https://codepen.io/monicarichardson" target="_blank" aria-label="Take a look at my Codepen library." title="My Codepen library">Codepen library</a>, where I mess around in my spare time</p>
+					<p>If you're interested in the code behind this website, <a href="https://github.com/monicarichardson/devmonica.com" aria-label="My main GitHub repository where you can find the code behind this website." title="My main GitHub" target="_blank">say no more</a></p>
+					<p>I may have completed my Graduate Apprenticeship, but I'll always consider myself an apprentice in the infinite dojo of programming! If you have time to review and provide feedback on my code, I'd be eternally grateful</p>
+				</div>
+			</div>
+        </section>
+        <section id="news-section">
+            <div class="news-container container">
+                <h2>Stuff I'm extra proud of</h2>
+                <div>
+					<img src="assets/star.svg" /><p>In August 2020 I wrote <a href="https://www.scotsman.com/business/attracting-women-tech-and-retaining-them-comment-2936213" target="_blank" aria-label="The article I wrote for The Scotsman newspaper.">an article</a> for The Scotsman on bridging the gender gap in the Tech Industry.</p>
+				</div>
+				<div>
+					<img src="assets/star.svg" />
+					<p>In October 2020 I was named <a href="https://bmmagazine.co.uk/news/winners-of-the-10th-annual-scottish-digital-technology-awards-announced/#:~:text=The%20awards%2C%20sponsored%20by%20the%20Scottish%20Government%20and%20The%20Data%20Lab%2C%20launched%20its%20inaugural%20Unsung%20Heroes%20Award%2C%20dedicated%20to%20celebrating%20community%20champions%20across%20Scotland.%20The%20winners%20were%20Kelly%20Gardner%20(Codebase%20Stirling)%20and%20Monica%20Richardson%20(Forrit)." target="_blank" aria-label="An article in BusinessMatters Magazine announcing the ScotlandIS Digital Technology Awards 2020 winners.">ScotlandIS Digital Technology Awards "Unsung Hero"</a> - I was nominated by Forrit for my efforts in promoting apprenticeships and speaking out about the gender gap in the Tech Industry. In their nomination, Forrit cited the school talks, articles and interviews I've done on these topics which are deeply important to me.</p>
+				</div>
+                <div>
+					<img src="assets/star.svg" /><p>After graduating from Edinburgh Napier University in October 2021 I was invited by the former Dean of the School of Computing, Sally Smith, to join the steering group for the <a href="https://ada.scot/women-in-tech/" target="_blank" aria-label="More information about the Women Into Tech project.">"Women Into Tech"</a> research project.</p>
+				</div>
+            </div>
+        </section>
+        <section id="contact-section">
+            <div class="contact-container container">
+                <h2>Contact me</h2>
+                <p>I'm always up for a coffee and a chat. Pop me a message and I'll get back to you as soon as I can!</p>
+				<div id="contact-form-feedback"></div>
+                <form id="contact-form" method="post" action="" onsubmit="event.preventDefault(); contactForm();">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+					<label for="email">Email :</label>
+					<input type="text" id="email" name="email">
+					<label for="message">Message :</label>
+					<textarea id="message" name="message"></textarea>
+					<input id="submit" type="submit" value="Send"/>
+				</form>
+            </div>
+        </section>
+        <!--
+        If you encounter any issues or have any suggestions for improvement of this site, please contact me or pop a comment on GitHub: https://github.com/monicarichardson/devmonica.com - thank you!
+        -->
+    </body>
+</html>
